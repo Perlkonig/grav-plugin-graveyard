@@ -40,6 +40,6 @@ graveyard:
   - /nonexistent/post
 ```
 
-The `enabled` field turns the plugin off an on. The `graveyard` field is a simple list of routes. When Grav can't find a given page, it first checks to see if it's on this list. If it does, it emits a `410`. Otherwise it passes control to the **Error** and emits a `404`.
+The `enabled` field turns the plugin off an on. The `graveyard` field is a simple list of routes. When Grav can't find a given page, it first checks to see if it's on this list. If it does, it emits a `410`. Otherwise it passes control to the [Error](https://github.com/getgrav/grav-plugin-error) plugin and emits a `404`.
 
 
