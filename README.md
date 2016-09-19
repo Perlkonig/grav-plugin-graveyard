@@ -28,6 +28,8 @@ You should now have all the plugin files under
 
 The plugin works automatically once enabled. All you have to do is maintain the list of intentionally deleted routes.
 
+To render the the error page, it first checks to see if you have the [Error](https://github.com/getgrav/grav-plugin-error) plugin configured for 410s. If so, it will render what you have there. Otherwise it will use the built-in page and text. To customize, follow the instructions for the the [Error](https://github.com/getgrav/grav-plugin-error) plugin to create your custom page. You can use this plugin's `pages/graveyard.md` as a base.
+
 ## Configuration
 
 Here's the default configuration. To override, first copy `graveyard.yaml` from the `user/plugins/graveyard` folder to your `user/config/plugins` folder.
