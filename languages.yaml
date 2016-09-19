@@ -3,3 +3,7 @@ en:
     ERROR: Error
     MESSAGE: This post has been permanently deleted. Please update your bookmarks or indexes.
 
+fr:
+  PLUGIN_GRAVEYARD:
+    ERROR: "Erreur"
+    MESSAGE: "Cette publication a été définitivement supprimée. Veuillez mettre à jour vos signets ou index."
