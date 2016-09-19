@@ -6,7 +6,7 @@ routable: false
 http_response_code: 410
 twig_first: true
 process:
-	twig: true
+  twig: true
 ---
 
 {{ 'PLUGIN_GRAVEYARD.MESSAGE'|t }}
