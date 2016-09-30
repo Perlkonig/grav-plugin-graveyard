@@ -1,12 +1,12 @@
 name: Graveyard
-version: 1.0.0
+version: 1.0.1
 description: Returns `410 GONE` status code based on list of intentionally deleted posts
 icon: ambulance
 author:
   name: Aaron Dalton
   email: aaron@daltons.ca
 homepage: https://github.com/Perlkonig/grav-plugin-graveyard
-demo: http://perlkonig.com/nonexistent/post
+demo: http://perlkonig.com/demos/graveyard
 keywords: grav, plugin, 410, deleted
 bugs: https://github.com/Perlkonig/grav-plugin-graveyard/issues
 docs: https://github.com/Perlkonig/grav-plugin-graveyard/blob/master/README.md

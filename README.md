@@ -2,6 +2,8 @@
 
 The **Graveyard** Plugin is for [Grav CMS](http://github.com/getgrav/grav). Grav offers powerful routing options to help you when you have to move content, but what it (and most other CMSs) can't do is know when you intentionally deleted something. This plugin lets you record a list of intentionally deleted routes. When those routes are requested, it emits a proper `410 GONE` code instead of the more vague `404 NOT FOUND`.
 
+For a demo, [visit my blog](https://perlkonig.com/demos/graveyard).
+
 ## Installation
 
 Installing the Graveyard plugin can be done in one of two ways. The GPM (Grav Package Manager) installation method enables you to quickly and easily install the plugin with a simple terminal command, while the manual method enables you to do so via a zip file.
