@@ -7,3 +7,8 @@ fr:
   PLUGIN_GRAVEYARD:
     ERROR: "Erreur"
     MESSAGE: "Cette publication a été définitivement supprimée. Veuillez mettre à jour vos signets ou index."
+
+ja:
+  PLUGIN_GRAVEYARD:
+    ERROR: "エラー"
+    MESSAGE: "この資料は完全に削除されました。ご自分のインデクスやブックマークをアップデートをさせてあげて下さい。"
