@@ -20,7 +20,7 @@ class GraveyardPlugin extends Plugin
     {
         return [
             'onPageNotFound' => ['onPageNotFound', 100],
-            'onGetPageTemplates' => ['onGetPageTemplates', 0],
+            //'onGetPageTemplates' => ['onGetPageTemplates', 0],
         ];
     }
     /**
