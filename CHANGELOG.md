@@ -1,3 +1,9 @@
+# v1.0.3
+## 03/31/2018
+
+1. [](#bugfix)
+    * Commented out a line that caused problems in the Admin screen (thanks RobLui)
+
 # v1.0.2
 ##  11/02/2016
 
