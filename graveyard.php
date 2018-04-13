@@ -36,7 +36,7 @@ class GraveyardPlugin extends Plugin
         
         $isdead = false;
         foreach ($graveyard as $link) {
-            if ($link === $route) {
+            if (fnmatch($link, $route)) {
                 $isdead = true;
                 break;
             }

@@ -24,11 +24,11 @@ You should now have all the plugin files under
 
     /your/site/grav/user/plugins/graveyard
 	
-> NOTE: This plugin is a modular component for Grav which requires [Grav](http://github.com/getgrav/grav) and the [Error](https://github.com/getgrav/grav-plugin-error) and [Problems](https://github.com/getgrav/grav-plugin-problems) to operate.
+> NOTE: This plugin is a modular component for Grav which requires [Grav](http://github.com/getgrav/grav) and the [Error](https://github.com/getgrav/grav-plugin-error) and [Problems](https://github.com/getgrav/grav-plugin-problems) plugins to operate.
 
 ## Usage
 
-The plugin works automatically once enabled. All you have to do is maintain the list of intentionally deleted routes.
+The plugin works automatically once enabled. All you have to do is maintain the list of intentionally deleted routes. 
 
 To render the the error page, it first checks to see if you have the [Error](https://github.com/getgrav/grav-plugin-error) plugin configured for 410s. If so, it will render what you have there. Otherwise it will use the built-in page and text. To customize, follow the instructions for the the [Error](https://github.com/getgrav/grav-plugin-error) plugin to create your custom page. You can use this plugin's `pages/graveyard.md` as a base.
 
@@ -42,6 +42,8 @@ graveyard:
   - /nonexistent/post
 ```
 
-The `enabled` field turns the plugin off and on. The `graveyard` field is a simple list of routes. When Grav can't find a given page, it first checks to see if it's on this list. If it does, it emits a `410`. Otherwise it passes control to the [Error](https://github.com/getgrav/grav-plugin-error) plugin and emits a `404`.
+The `enabled` field turns the plugin off and on. 
+
+The `graveyard` field is a simple list of routes. You can use basic shell wildcards. [Refer to the PHP function `fnmatch` for details.](https://secure.php.net/manual/en/function.fnmatch.php) When Grav can't find a given page, it first checks to see if that page's route is on this list. If it is, it emits a `410`. Otherwise it emits a `404`.
 
 

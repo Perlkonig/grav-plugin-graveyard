@@ -1,5 +1,5 @@
 name: Graveyard
-version: 1.0.3
+version: 1.1.0
 description: Returns `410 GONE` status code based on list of intentionally deleted posts
 icon: ambulance
 author:

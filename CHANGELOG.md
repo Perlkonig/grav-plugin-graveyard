@@ -1,3 +1,9 @@
+# v1.1.0
+## 04/13/2018
+
+1. [](#new)
+    * Added wildcard functionality to the deleted routes list using `fnmatch`.
+
 # v1.0.3
 ## 03/31/2018
 
