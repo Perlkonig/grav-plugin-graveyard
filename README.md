@@ -1,5 +1,7 @@
 # Graveyard Plugin
 
+***Abandonment Notice:** I'm afraid I simply don't have the time to maintain my Grav themes and plugins. Those interested in taking over should refer to the ["Abandoned Resource Protocol"](https://learn.getgrav.org/17/advanced/grav-development#abandoned-resource-protoc). Feel free to fork and replace. So long, and thanks for all the fish.*
+
 The **Graveyard** Plugin is for [Grav CMS](http://github.com/getgrav/grav). Grav offers powerful routing options to help you when you have to move content, but what it (and most other CMSs) can't do is know when you intentionally deleted something. This plugin lets you record a list of intentionally deleted routes. When those routes are requested, it emits a proper `410 GONE` code instead of the more vague `404 NOT FOUND`.
 
 For a demo, [visit my blog](https://perlkonig.com/demos/graveyard).
